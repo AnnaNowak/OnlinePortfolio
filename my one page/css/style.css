@@ -1,0 +1,170 @@
+body {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.flex-nav ul {
+    box-shadow: 1px 1px 3px lightgrey;
+
+}
+
+.flex-nav a {
+    color: black;
+    display: block;
+}
+
+.flex-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 15px 60px 15px 60px;
+    background-color: white;
+    top: 0;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+}
+
+.wrapper {
+    top: 30px;
+    position: relative;
+}
+
+.nameAnna {
+    flex: 10;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.flex-nav .menuItem {
+    flex: 1;
+    padding: 0;
+}
+
+.menuItem a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.nameAnna a:hover {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.photoHands {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    margin: 50px 0px 50px 70px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.myHeader1 {
+    margin: 50px 50px 0px 70px;
+}
+
+.fullForm {
+    width: 100%;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.photoGallery {
+    margin: 15px;
+    width: calc(33% - 45px);
+    height: calc(33% - 45px);
+}
+
+.photoGallery img:hover {
+    box-shadow: 0px 0px 10px dimgrey;
+}
+
+.photoGallery img {
+    width: 100%;
+}
+
+.myForm {
+    display: flex;
+    margin: 50px 50px 50px 70px;
+}
+
+.contactForm {
+    flex: 1;
+}
+
+.contactMap {
+    flex: 2;
+    margin: 0 15px 0 0;
+}
+
+.form .fields {
+    width: 95%;
+
+}
+
+.submitButton {
+    margin: 20px 0 0 0;
+    width: 33%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #404040;
+    color: white;
+    padding: 30px;
+
+}
+
+.footer a:link {
+    color: darkgrey;
+}
+
+.footer p {
+    padding: 0 10px 0 10px;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.galButtons {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.galButtons .right {
+    text-align: left;
+    flex: 1;
+    padding-left: 30px;
+}
+
+.galButtons .left {
+    text-align: right;
+    padding-right: 30px;
+    flex: 1;
+}
+
+.fas {
+    color: grey;
+}
